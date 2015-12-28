@@ -1,5 +1,5 @@
-require 'pry'
-require 'twitter'
+require 'bundler'
+Bundler.require
 require_relative './env'
 
 client = Twitter::REST::Client.new do |config|
